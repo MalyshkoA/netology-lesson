@@ -41,4 +41,5 @@ jobs:
             sudo docker stop main_container
             sudo docker system prune -a -f
             sudo docker pull malyshkoa2/netology-lesson:latest
-            sudo nohup docker run --name main_container -d
+            sudo nohup docker run --name main_container -d malyshkoa2/netology-lesson:latest
+
